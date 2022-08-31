@@ -13,7 +13,7 @@ export const config = {
     TEMPLATE_ID: "3JzclbGTbgLM94nPEqS-GAtHWSHNYVO_8KQNbB2M8XI",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-      CALLBACK_TEMPLATE_ID: "omY3O6pcym3pS3nLnSuIH5DPC8ik",
+     // CALLBACK_TEMPLATE_ID: "omY3O6pcym3pS3nLnSuIH5DPC8ik",
 
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
     // [{
@@ -28,9 +28,9 @@ export const config = {
       {name: '很聪明的笨笨', id: "omY3O6pcym3pS3nLnSuIH5DPC8ik"} ]
     
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
-   // CALLBACK_USERS: [
-   //     {name: '很聪明的笨笨',id: "omY3O6pcym3pS3nLnSuIH5DPC8ik"}, 
-    //  ]
+    CALLBACK_USERS: [
+        {name: '很聪明的笨笨',id: "omY3O6pcym3pS3nLnSuIH5DPC8ik"}, 
+      ]
      
     /**
      * 信息配置
@@ -55,7 +55,7 @@ export const config = {
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
     // 如果为0, 则默认展示全部
-    FESTIVALS_LIMIT: 3,
+    FESTIVALS_LIMIT: 0,
 
     /** 日期相关 */
 
