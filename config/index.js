@@ -28,9 +28,9 @@ export const config = {
       {name: '麻辣味欣雨', id: "omY3O6pcym3pS3nLnSuIH5DPC8ik"} 
     
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
-    CALLBACK_USERS: [
-      {name: '自己',id: "omY3O6pcym3pS3nLnSuIH5DPC8ik"}, 
-    ],
+   //   CALLBACK_USERS: [
+      //  {name: '自己',id: "omY3O6pcym3pS3nLnSuIH5DPC8ik"}, 
+    //  ],
      
     /**
      * 信息配置
