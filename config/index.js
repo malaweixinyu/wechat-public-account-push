@@ -13,7 +13,7 @@ export const config = {
     TEMPLATE_ID: "3JzclbGTbgLM94nPEqS-GAtHWSHNYVO_8KQNbB2M8XI",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-      CALLBACK_TEMPLATE_ID: "omY3O6pcym3pS3nLnSuIH5DPC8ik",
+     // CALLBACK_TEMPLATE_ID: "omY3O6pcym3pS3nLnSuIH5DPC8ik",
 
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
     // [{
@@ -27,9 +27,7 @@ export const config = {
     USERS: [
       {name: 'omY3O6pcym3pS3nLnSuIH5DPC8ik', id: "omY3O6pcym3pS3nLnSuIH5DPC8ik"} ]
     
-    // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
-      CALLBACK_USERS:[{name:'omY3O6pcym3pS3nLnSuIH5DPC8ik',id:"gh_b19aa0cb760c"}
-]
+    // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）CALLBACK_USERS:[{name:'omY3O6pcym3pS3nLnSuIH5DPC8ik',id:"gh_b19aa0cb760c"}]
      /**
      * 信息配置
      */
@@ -72,17 +70,17 @@ export const config = {
 
    // }
 
-// {{date.DATA}}  
-// 城市：{{city.DATA}}  
-// 天气：{{weather.DATA}}  
-// 最低气温: {{min_temperature.DATA}}  
-// 最高气温: {{max_temperature.DATA}}  
-// 今天是我们恋爱的第{{love_day.DATA}}天
-// 今天是我们结婚的第{{marry_day.DATA}}天
-// {{birthday_message.DATA}}
+ {{date.DATA}}  
+ 城市：{{city.DATA}}  
+ 天气：{{weather.DATA}}  
+ 最低气温: {{min_temperature.DATA}}  
+ 最高气温: {{max_temperature.DATA}}  
+ 今天是我们恋爱的第{{love_day.DATA}}天
+ 今天是我们结婚的第{{marry_day.DATA}}天
+ {{birthday_message.DATA}}
 
-// {{note_en.DATA}}  
-// {{note_ch.DATA}}
+ {{note_en.DATA}}  
+ {{note_ch.DATA}}
 
 // 共推送 {{need_post_num.DATA}}  人
 // 成功: {{success_post_num.DATA}} | 失败: {{fail_post_num.DATA}}
