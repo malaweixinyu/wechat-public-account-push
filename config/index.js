@@ -25,10 +25,10 @@ export const config = {
     //   id: "wxafasdasdd-zxfvsdfd"
     // }]
     USERS: [
-      {name: 'gh_b19aa0cb760c', id: "omY3O6pcym3pS3nLnSuIH5DPC8ik"} ]
+      {name: 'omY3O6pcym3pS3nLnSuIH5DPC8ik', id: "omY3O6pcym3pS3nLnSuIH5DPC8ik"} ]
     
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
-      CALLBACK_USERS:[{name:"gh_b19aa0cb760c",id:"omY3O6pcym3pS3nLnSuIH5DPC8ik"},]
+      CALLBACK_USERS:[{name:'omY3O6pcym3pS3nLnSuIH5DPC8ik',id:"omY3O6pcym3pS3nLnSuIH5DPC8ik"},]
      /**
      * 信息配置
      */
